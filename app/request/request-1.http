@@ -1,0 +1,12 @@
+GET http://localhost:3001/user/list/all
+
+### -----------------------
+
+POST http://localhost:3001/user/new
+Content-type: application/json
+
+{
+    "name": "Cesar",
+    "email": "juliog@gmail.com",
+    "password": "123"
+}
